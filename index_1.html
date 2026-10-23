@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="M.A.C – Método Agenda Cheia: 6 estratégias para o barbeiro lotar a agenda sem gastar com anúncio. Desafio de 60 dias.">
+<title>M.A.C – Método Agenda Cheia | Desafio 60 dias</title>
+<meta name="theme-color" content="#07090a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#030405;color:#eef3ef;font-family:'Space Grotesk',system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:#2ee87a}
+a:hover{color:#7dffb0}
+p,h1,h2,h3,blockquote{margin:0}
+summary::-webkit-details-marker{display:none}
+input[type=range]{accent-color:#2ee87a;width:100%;height:28px}
+@keyframes blink{50%{opacity:0}}
+@keyframes popIn{0%{opacity:0;transform:translateX(-8px)}100%{opacity:1;transform:none}}
+@keyframes scan{0%{transform:translateY(-100%)}100%{transform:translateY(340%)}}
+</style>
+<style>a[data-checkout]{transition:background .15s}a[data-checkout]:hover{background:#7dffb0 !important;color:#04110a !important}details[open] summary span{transform:rotate(45deg)}</style>
+<style>
+.calc-hint{display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#2ee87a;padding:8px 12px;border-radius:10px;border:1px dashed rgba(46,232,122,.35);background:rgba(46,232,122,.06);transition:opacity .4s}
+.calc-hint b{color:#eef3ef}
+.calc-hint__hand{display:inline-block;animation:handNudge 1.2s ease-in-out infinite}
+@keyframes handNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+.slider-wrap{position:relative}
+.finger{position:absolute;top:50%;width:34px;height:34px;margin:-6px 0 0 -17px;font-size:26px;line-height:1;pointer-events:none;transition:left .08s linear,opacity .3s;opacity:0;filter:drop-shadow(0 4px 8px rgba(0,0,0,.6));z-index:2}
+.finger.on{opacity:1}
+input[data-in].live{filter:drop-shadow(0 0 8px rgba(46,232,122,.7))}
+</style>
+<style>@keyframes soundPulse{0%,100%{transform:translateX(-50%) scale(1)}50%{transform:translateX(-50%) scale(1.06)}}</style>
+</head>
+<body>
+<div style="max-width:480px;margin:0 auto;min-height:100vh;background:#07090a;color:#eef3ef;font-family:'Space Grotesk',system-ui,sans-serif;box-shadow:0 0 0 1px rgba(46,232,122,.08),0 0 120px rgba(0,0,0,.8);padding-bottom:84px">
+
+<header data-screen-label="01 Hero" style="position:relative;overflow:hidden;padding:20px 18px 40px;background-color:#07090a;background-image:linear-gradient(rgba(46,232,122,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(46,232,122,.07) 1px,transparent 1px);background-size:32px 32px">
+  <div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(420px 300px at 80% 0%,rgba(46,232,122,.16),transparent 70%),linear-gradient(180deg,transparent 55%,#07090a)"></div>
+  <div style="position:relative">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;font-family:'JetBrains Mono',monospace;font-size:12px">
+      <span style="display:flex;align-items:center;gap:8px"><span style="width:7px;height:7px;border-radius:50%;background:#2ee87a;box-shadow:0 0 10px #2ee87a"></span><b>M.A.C</b></span>
+      <span style="color:#8f9a94">para barbeiros</span>
+    </div>
+    <h1 style="margin-top:34px;font-weight:700;letter-spacing:-.035em;line-height:1;font-size:clamp(36px,10.5vw,48px);text-wrap:balance">6 estratégias para lotar sua agenda <span style="color:#2ee87a">sem gastar com anúncio.</span></h1>
+    <p style="margin-top:20px;font-weight:600;font-size:20px;line-height:1.3;text-wrap:balance"><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:#04110a;background:#2ee87a;padding:1px 8px;border-radius:6px">60 dias</span> aplicando esse método e você volta para me agradecer. <span style="color:#2ee87a">Combinado?</span></p>
+
+    <a href="https://pay.kiwify.com.br/VjvNekA" data-checkout="1" style="margin-top:22px;display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;background:#2ee87a;color:#04110a;border-radius:14px;min-height:60px;padding:16px;font-weight:700;font-size:18px;box-shadow:0 18px 50px -12px rgba(46,232,122,.6)">Quero lotar minha agenda<span style="font-family:'JetBrains Mono',monospace">→</span></a>
+    <p style="margin-top:14px;text-align:center;font-size:13px;color:#8f9a94">Criado por um <b style="color:#eef3ef">barbeiro com +6 anos de cadeira</b>, não por agência.</p>
+  </div>
+</header>
+
+<section data-screen-label="02 Vídeo" style="padding:8px 18px 48px">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 01 · aperte o play</span>
+  <div style="position:relative;margin-top:14px;width:100%;aspect-ratio:9/16;max-height:78vh;border-radius:20px;overflow:hidden;background:linear-gradient(160deg,#121816,#070909);border:1px solid rgba(46,232,122,.25)">
+    <div style="position:absolute;left:0;right:0;top:0;height:30%;background:linear-gradient(180deg,transparent,rgba(46,232,122,.08),transparent);animation:scan 4s linear infinite;pointer-events:none"></div>
+    <span style="position:absolute;top:12px;left:12px;width:20px;height:20px;border-top:2px solid #2ee87a;border-left:2px solid #2ee87a"></span>
+    <span style="position:absolute;top:12px;right:12px;width:20px;height:20px;border-top:2px solid #2ee87a;border-right:2px solid #2ee87a"></span>
+    <span style="position:absolute;bottom:12px;left:12px;width:20px;height:20px;border-bottom:2px solid #2ee87a;border-left:2px solid #2ee87a"></span>
+    <span style="position:absolute;bottom:12px;right:12px;width:20px;height:20px;border-bottom:2px solid #2ee87a;border-right:2px solid #2ee87a"></span>
+    <!-- VÍDEO DE VENDAS: suba o vídeo real com o nome "video-vendas.mp4" na raiz do repositório -->
+    <video id="vsl" muted playsinline preload="auto" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0"><source src="video-vendas.mp4" type="video/mp4"></video>
+    <div id="vslPh" style="position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:28px;color:#8f9a94;font-size:14px;text-align:center"><div style="width:76px;height:76px;border-radius:50%;border:1px solid #2ee87a;display:grid;place-items:center;box-shadow:0 0 0 10px rgba(46,232,122,.08),0 0 40px rgba(46,232,122,.35)"><div style="width:0;height:0;border-left:20px solid #2ee87a;border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:6px"></div></div><span>Tenho um desafio de 60 dias pra você.</span></div>
+    <button id="vslSound" type="button" style="position:absolute;left:50%;bottom:44px;transform:translateX(-50%);z-index:3;display:flex;align-items:center;gap:8px;padding:12px 18px;border:0;border-radius:999px;background:#2ee87a;color:#04110a;font:700 15px 'Space Grotesk',system-ui,sans-serif;box-shadow:0 10px 30px -8px rgba(46,232,122,.7);cursor:pointer;animation:soundPulse 1.6s ease-in-out infinite;white-space:nowrap">🔊 Toque para ativar o som</button>
+  </div>
+  <div data-screen-label="Simulador" style="margin-top:28px">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 02 · faça a conta enquanto assiste</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px">Quanto vale <span style="color:#2ee87a">um</span> cliente fiel?</h2>
+  <div style="margin-top:24px;padding:20px;border-radius:16px;border:1px solid rgba(46,232,122,.3);background:radial-gradient(320px 180px at 100% 0%,rgba(46,232,122,.12),transparent 70%),#0d1112">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">faturamento extra em 12 meses</span>
+    <div style="margin-top:6px;font-weight:700;letter-spacing:-.04em;line-height:1;font-size:52px;color:#2ee87a"><span id="yearly">R$ 1.200</span></div>
+    <p style="margin-top:8px;font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">R$ <span data-v="price">50</span> × <span data-v="freq">2</span>/mês × 12 × <span data-v="clients">1</span> cliente(s)</p>
+    <div id="calcBox" style="margin-top:20px;padding-top:18px;border-top:1px dashed rgba(255,255,255,.1);display:grid;gap:16px">
+      <div id="calcHint" class="calc-hint"><span class="calc-hint__hand">👆</span> arraste e coloque os <b>seus</b> números</div>
+      <label style="display:grid;gap:4px">
+        <span style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px;color:#8f9a94">valor do corte<b style="color:#eef3ef">R$ <span data-v="price">50</span></b></span>
+        <input type="range" min="20" max="150" step="5" value="50" data-in="price">
+      </label>
+      <label style="display:grid;gap:4px">
+        <span style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px;color:#8f9a94">cortes por mês<b style="color:#eef3ef"><span data-v="freq">2</span>x</b></span>
+        <input type="range" min="1" max="4" step="1" value="2" data-in="freq">
+      </label>
+      <label style="display:grid;gap:4px">
+        <span style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px;color:#8f9a94">clientes fiéis a mais<b style="color:#eef3ef"><span data-v="clients">1</span></b></span>
+        <input type="range" min="1" max="30" step="1" value="1" data-in="clients">
+      </label>
+    </div>
+  </div>
+  <p style="margin-top:16px;font-size:17px;color:#8f9a94">E o M.A.C custa <b style="color:#eef3ef">R$ 47, menos que um corte.</b></p>
+</div>
+  <div style="margin-top:28px;border-radius:16px;overflow:hidden;border:1px solid rgba(46,232,122,.25);box-shadow:0 30px 80px -30px rgba(46,232,122,.35);background:linear-gradient(180deg,#121816,#0a0d0c);color:#eef3ef">
+    <div style="padding:16px 14px 12px;border-bottom:1px solid rgba(255,255,255,.06)">
+      <div style="display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">
+        <span>agenda.segunda</span>
+        <span style="display:inline-flex;align-items:center;gap:6px;color:#2ee87a"><span style="width:6px;height:6px;border-radius:50%;background:#2ee87a;animation:blink 1.2s steps(1) infinite"></span><span id="dayLabel">dia 01/60</span></span>
+      </div>
+      <div style="margin-top:10px;display:flex;align-items:baseline;justify-content:space-between;gap:10px">
+        <div style="font-size:52px;font-weight:700;letter-spacing:-.04em;line-height:1"><span id="occ">0</span><span style="font-size:.42em;color:#8f9a94">% cheia</span></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94;text-align:right"><span id="booked">0</span>/12<br>agendamentos</div>
+      </div>
+      <div style="margin-top:12px;height:4px;border-radius:9px;background:#1b2321;overflow:hidden"><div style="height:100%;background:#2ee87a;box-shadow:0 0 12px #2ee87a;transition:width .3s;width:0%" id="occBar"></div></div>
+    </div>
+    <div style="padding:10px 10px 12px;display:grid;gap:6px">
+      <div id="slots" style="display:contents"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:10px;padding:12px 14px;border-top:1px solid rgba(255,255,255,.06);background:rgba(46,232,122,.05);font-size:13px">
+      <span style="color:#8f9a94">faturamento do dia</span>
+      <b style="font-family:'JetBrains Mono',monospace;color:#2ee87a"><span id="revenue">R$ 0</span></b>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="03 Diagnóstico" style="padding:48px 18px;background:#0a0d0e;border-top:1px solid rgba(255,255,255,.05)">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 03 · diagnóstico</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px;text-wrap:balance">Você não tem problema de corte. <span style="color:#2ee87a">Você tem problema de cliente.</span></h2>
+  <div style="margin-top:26px;border:1px solid rgba(255,255,255,.08);border-radius:14px;overflow:hidden;background:#0d1112;font-family:'JetBrains Mono',monospace">
+    <div style="display:flex;gap:6px;align-items:center;padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.06);font-size:11px;color:#8f9a94">
+      <span style="width:9px;height:9px;border-radius:50%;background:#ff5f56"></span><span style="width:9px;height:9px;border-radius:50%;background:#ffbd2e"></span><span style="width:9px;height:9px;border-radius:50%;background:#27c93f"></span>
+      <span style="margin-left:6px">scan_barbearia.log</span>
+    </div>
+    <div style="padding:16px;display:grid;gap:14px;font-size:14px;line-height:1.45">
+      <div style="display:grid;gap:2px"><span style="color:#ff6b5b;font-size:11px">ERR_01</span><span>Sexta e sábado lotam, o resto da semana a cadeira fica parada</span></div>
+      <div style="display:grid;gap:2px"><span style="color:#ff6b5b;font-size:11px">ERR_02</span><span>Você depende de indicação que nunca é previsível</span></div>
+      <div style="display:grid;gap:2px"><span style="color:#ff6b5b;font-size:11px">ERR_03</span><span>O cliente corta uma vez e some</span></div>
+      <div style="display:grid;gap:2px"><span style="color:#ff6b5b;font-size:11px">ERR_04</span><span>Você posta todo dia, mas ninguém agenda</span></div>
+      <div style="padding-top:14px;border-top:1px dashed rgba(255,255,255,.1);display:grid;gap:4px">
+        <span style="color:#8f9a94;font-size:11px">&gt; causa_raiz:</span>
+        <span style="color:#2ee87a;font-weight:700;font-size:15px">Não é falta de talento. É falta de método.<span style="animation:blink 1s steps(1) infinite">_</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="04 Crenças" style="padding:48px 18px">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 04 · crenças que travam</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px">Se você acredita que:</h2>
+  <div style="margin-top:22px;display:grid;gap:10px">
+    <blockquote style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;font-size:18px;color:#8f9a94;text-decoration:line-through;text-decoration-color:#ff6b5b;text-decoration-thickness:2px">“Minha cidade é pequena, não tem cliente.”</blockquote>
+    <blockquote style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;font-size:18px;color:#8f9a94;text-decoration:line-through;text-decoration-color:#ff6b5b;text-decoration-thickness:2px">“Tá difícil pra todo mundo.”</blockquote>
+  </div>
+  <p style="margin-top:28px;color:#8f9a94">Deixa eu te falar uma coisa que eu aprendi na prática:</p>
+  <p style="margin-top:10px;font-weight:700;letter-spacing:-.02em;font-size:25px;line-height:1.2;text-wrap:balance">Sempre tem uma barbearia cheia na sua cidade. <span style="color:#2ee87a">E não é a que corta melhor… é a que tem estratégia.</span></p>
+</section>
+
+<section data-screen-label="05 Apresentação" style="padding:48px 18px;background:#0a0d0e;border-top:1px solid rgba(255,255,255,.05)">
+  <h2 style="font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:28px;text-wrap:balance">Enquanto você espera o cliente aparecer…</h2>
+  <p style="margin-top:12px;color:#8f9a94;text-wrap:pretty">outros barbeiros aplicam estratégias simples, na própria cadeira, que fazem cliente novo chegar e cliente antigo voltar. <b style="color:#eef3ef">Sem sorte. Sem anúncio.</b></p>
+  <div style="margin-top:26px;padding:24px 20px;border-radius:20px;border:1px solid rgba(46,232,122,.25);background:radial-gradient(360px 200px at 100% 0%,rgba(46,232,122,.14),transparent 70%),#0d1112">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// apresento</span>
+    <h3 style="margin-top:6px;font-weight:700;letter-spacing:-.05em;line-height:.9;font-size:84px">M.A.C</h3>
+    <p style="margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#2ee87a;letter-spacing:.08em;text-transform:uppercase">Método Agenda Cheia</p>
+    <p style="margin-top:16px;color:#8f9a94">6 estratégias em 3 pilares para uma <b style="color:#eef3ef">agenda cheia de segunda a sábado.</b></p>
+    <div style="margin-top:20px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px">
+      <div style="padding:12px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02)"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#2ee87a">3x</span><p style="margin-top:4px;font-weight:700;font-size:14px">Captação</p></div>
+      <div style="padding:12px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02)"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#2ee87a">1x</span><p style="margin-top:4px;font-weight:700;font-size:14px">Reputação</p></div>
+      <div style="padding:12px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02)"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#2ee87a">2x</span><p style="margin-top:4px;font-weight:700;font-size:14px">Fidelização</p></div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="06 Módulos" style="padding:48px 18px">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 05 · o que você vai conquistar</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px">Direto ao ponto. <span style="color:#2ee87a">Sem enrolação.</span></h2>
+  <div style="margin-top:24px;display:grid;gap:10px">
+    
+      <div style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;display:grid;gap:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px">
+          <span style="color:#2ee87a">mod_01</span>
+          <span style="color:#8f9a94;text-transform:uppercase;letter-spacing:.08em">Captação</span>
+        </div>
+        <h3 style="font-weight:700;font-size:19px;letter-spacing:-.015em;line-height:1.2">Vire o primeiro nome da sua cidade</h3>
+        <p style="color:#8f9a94;font-size:14.5px">Seja lembrado por quem está perto de você na hora de cortar o cabelo.</p>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#8f9a94">
+            <span>impacto</span>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:3px">
+              <span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span>
+            </div>
+            <b style="color:#eef3ef">7/10</b>
+          </div>
+        
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#8f9a94">🔒 passo a passo liberado no acesso</span>
+      </div>
+      <div style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;display:grid;gap:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px">
+          <span style="color:#2ee87a">mod_02</span>
+          <span style="color:#8f9a94;text-transform:uppercase;letter-spacing:.08em">Captação</span>
+        </div>
+        <h3 style="font-weight:700;font-size:19px;letter-spacing:-.015em;line-height:1.2">Cliente atual trazendo cliente novo</h3>
+        <p style="color:#8f9a94;font-size:14.5px">O que falar, e quando, para indicação parar de depender da sorte.</p>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#8f9a94">
+            <span>impacto</span>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:3px">
+              <span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span>
+            </div>
+            <b style="color:#eef3ef">7/10</b>
+          </div>
+        
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#8f9a94">🔒 passo a passo liberado no acesso</span>
+      </div>
+      <div style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;display:grid;gap:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px">
+          <span style="color:#2ee87a">mod_03</span>
+          <span style="color:#8f9a94;text-transform:uppercase;letter-spacing:.08em">Captação</span>
+        </div>
+        <h3 style="font-weight:700;font-size:19px;letter-spacing:-.015em;line-height:1.2">Seu cliente te apresentando aos amigos</h3>
+        <p style="color:#8f9a94;font-size:14.5px">Um detalhe no fim do atendimento que faz o seu trabalho circular sozinho.</p>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#8f9a94">
+            <span>impacto</span>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:3px">
+              <span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span>
+            </div>
+            <b style="color:#eef3ef">8/10</b>
+          </div>
+        
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#8f9a94">🔒 passo a passo liberado no acesso</span>
+      </div>
+      <div style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;display:grid;gap:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px">
+          <span style="color:#2ee87a">mod_04</span>
+          <span style="color:#8f9a94;text-transform:uppercase;letter-spacing:.08em">Reputação</span>
+        </div>
+        <h3 style="font-weight:700;font-size:19px;letter-spacing:-.015em;line-height:1.2">Escolhido antes do concorrente</h3>
+        <p style="color:#8f9a94;font-size:14.5px">Como ser a primeira opção de quem procura barbeiro na sua cidade.</p>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#8f9a94">
+            <span>impacto</span>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:3px">
+              <span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span>
+            </div>
+            <b style="color:#eef3ef">5/10</b>
+          </div>
+        
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#8f9a94">🔒 passo a passo liberado no acesso</span>
+      </div>
+      <div style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;display:grid;gap:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px">
+          <span style="color:#2ee87a">mod_05</span>
+          <span style="color:#8f9a94;text-transform:uppercase;letter-spacing:.08em">Fidelização</span>
+        </div>
+        <h3 style="font-weight:700;font-size:19px;letter-spacing:-.015em;line-height:1.2">De opção a referência</h3>
+        <p style="color:#8f9a94;font-size:14.5px">A mudança de postura na cadeira que faz o cliente não querer cortar com outro.</p>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#8f9a94">
+            <span>impacto</span>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:3px">
+              <span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span>
+            </div>
+            <b style="color:#eef3ef">8/10</b>
+          </div>
+        
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#8f9a94">🔒 passo a passo liberado no acesso</span>
+      </div>
+      <div style="padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:#0d1112;display:grid;gap:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px">
+          <span style="color:#2ee87a">mod_06</span>
+          <span style="color:#8f9a94;text-transform:uppercase;letter-spacing:.08em">Fidelização</span>
+        </div>
+        <h3 style="font-weight:700;font-size:19px;letter-spacing:-.015em;line-height:1.2">Fim do cliente que some</h3>
+        <p style="color:#8f9a94;font-size:14.5px">O minuto que garante que ele volte, e volte com você.</p>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#8f9a94">
+            <span>impacto</span>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:3px">
+              <span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#2ee87a"></span><span style="height:5px;border-radius:2px;background:#1f2826"></span>
+            </div>
+            <b style="color:#eef3ef">9/10</b>
+          </div>
+        
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#8f9a94">🔒 passo a passo liberado no acesso</span>
+      </div>
+  </div>
+</section>
+
+<section data-screen-label="07 Bônus" style="padding:48px 18px;background:#0a0d0e;border-top:1px solid rgba(255,255,255,.05)">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 06 · bônus inclusos</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px">Você ainda recebe:</h2>
+  <div style="margin-top:24px;display:grid;gap:10px">
+    <div style="padding:18px;border-radius:14px;border:1px solid rgba(46,232,122,.2);background:#0d1112;display:flex;gap:14px;align-items:flex-start">
+      <span style="flex:none;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#04110a;background:#2ee87a;padding:4px 7px;border-radius:5px">01</span>
+      <div><h3 style="font-weight:700;font-size:18px">Plano de 60 dias</h3><p style="margin-top:4px;color:#8f9a94;font-size:14.5px">O que fazer em cada dia para aplicar as 6 estratégias sem esquecer nada.</p></div>
+    </div>
+    <div style="padding:18px;border-radius:14px;border:1px solid rgba(46,232,122,.2);background:#0d1112;display:flex;gap:14px;align-items:flex-start">
+      <span style="flex:none;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#04110a;background:#2ee87a;padding:4px 7px;border-radius:5px">02</span>
+      <div><h3 style="font-weight:700;font-size:18px">3 vídeos comigo</h3><p style="margin-top:4px;color:#8f9a94;font-size:14.5px">Boas-vindas, por onde começar e uma estratégia aplicada, gravados na barbearia.</p></div>
+    </div>
+    <div style="padding:18px;border-radius:14px;border:1px solid rgba(46,232,122,.2);background:#0d1112;display:flex;gap:14px;align-items:flex-start">
+      <span style="flex:none;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#04110a;background:#2ee87a;padding:4px 7px;border-radius:5px">03</span>
+      <div><h3 style="font-weight:700;font-size:18px">Mural do método</h3><p style="margin-top:4px;color:#8f9a94;font-size:14.5px">As 6 estratégias numa página para imprimir e deixar na bancada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="09 Criador" style="padding:48px 18px;background:#0a0d0e;border-top:1px solid rgba(255,255,255,.05)">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 07 · quem criou</span>
+  <div style="margin-top:18px;display:flex;gap:16px;align-items:center">
+    <div style="position:relative;flex:none;width:112px;height:112px;padding:6px">
+      <span style="position:absolute;top:0;left:0;width:18px;height:18px;border-top:2px solid #2ee87a;border-left:2px solid #2ee87a"></span>
+      <span style="position:absolute;top:0;right:0;width:18px;height:18px;border-top:2px solid #2ee87a;border-right:2px solid #2ee87a"></span>
+      <span style="position:absolute;bottom:0;left:0;width:18px;height:18px;border-bottom:2px solid #2ee87a;border-left:2px solid #2ee87a"></span>
+      <span style="position:absolute;bottom:0;right:0;width:18px;height:18px;border-bottom:2px solid #2ee87a;border-right:2px solid #2ee87a"></span>
+      <div style="width:100%;height:100%;border-radius:10px;overflow:hidden;background:#121816">
+        <img src="eliezer-perfil.jpg" onerror="this.onerror=null;this.src='assets/img/eliezer-sobre.jpg'" alt="Eliezer, criador do M.A.C" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block">
+      </div>
+    </div>
+    <div style="min-width:0">
+      <h2 style="font-weight:700;letter-spacing:-.03em;line-height:1;font-size:36px">Eliezer</h2>
+      <p style="margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#2ee87a">barbeiro · criador do M.A.C</p>
+      <a href="https://instagram.com/eliezer_stacruz" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;text-decoration:none;color:#eef3ef">@eliezer_stacruz ↗</a>
+    </div>
+  </div>
+  <p style="margin-top:18px;color:#8f9a94;text-wrap:pretty">Tenho 30 anos, sou casado, cristão e pai da Mayte. Comecei na barbearia há mais de 6 anos para pagar a faculdade, e a profissão virou paixão. Fui testando, na minha própria cadeira, o que de fato traz cliente e o que faz ele voltar. O M.A.C é exatamente isso, organizado para você aplicar.</p>
+  <div style="margin-top:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08);border-radius:14px;overflow:hidden">
+    <div style="padding:14px;background:#0a0d0e"><b style="display:block;font-size:24px;letter-spacing:-.03em">+6 anos</b><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">de cadeira</span></div>
+    <div style="padding:14px;background:#0a0d0e"><b style="display:block;font-size:24px;letter-spacing:-.03em">6</b><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">estratégias testadas</span></div>
+    <div style="padding:14px;background:#0a0d0e"><b style="display:block;font-size:24px;letter-spacing:-.03em">3</b><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">pilares</span></div>
+    <div style="padding:14px;background:#0a0d0e"><b style="display:block;font-size:24px;letter-spacing:-.03em;color:#2ee87a">R$ 0</b><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">em anúncio</span></div>
+  </div>
+</section>
+
+<section id="oferta" data-screen-label="10 Oferta" style="padding:48px 18px;background-color:#07090a;background-image:linear-gradient(rgba(46,232,122,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(46,232,122,.05) 1px,transparent 1px);background-size:32px 32px">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 08 · acesso</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px">Aceite o desafio de 60 dias</h2>
+  <div style="margin-top:24px;border-radius:20px;border:1px solid rgba(46,232,122,.4);background:#0d1112;box-shadow:0 30px 90px -30px rgba(46,232,122,.45);overflow:hidden">
+    <div style="padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94"><span>acesso_completo</span><span style="color:#2ee87a">● disponível</span></div>
+    <div style="padding:22px 18px">
+      <h3 style="font-weight:700;font-size:20px;letter-spacing:-.02em">M.A.C – Método Agenda Cheia</h3>
+      <div style="margin-top:10px;display:flex;align-items:flex-start;gap:6px;font-weight:700;letter-spacing:-.05em;line-height:.9;font-size:96px"><span style="font-size:.28em;letter-spacing:0;margin-top:.3em;color:#8f9a94">R$</span>47</div>
+      <p style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:#8f9a94">pagamento único · <span style="color:#2ee87a">menos de R$ 0,80 por dia em 60 dias</span></p>
+      <div style="margin:22px 0;display:grid;gap:12px">
+        <div style="display:flex;gap:10px"><span style="flex:none;color:#2ee87a;font-family:'JetBrains Mono',monospace;font-weight:700">[✓]</span><div><b style="display:block;font-size:15px">E-book Método Agenda Cheia</b><span style="font-size:13.5px;color:#8f9a94">3 pilares e 6 estratégias, com mensagens prontas.</span></div></div>
+        <div style="display:flex;gap:10px"><span style="flex:none;color:#2ee87a;font-family:'JetBrains Mono',monospace;font-weight:700">[✓]</span><div><b style="display:block;font-size:15px">Plano de 60 dias + mural</b><span style="font-size:13.5px;color:#8f9a94">O passo a passo dia a dia e o resumo para a bancada.</span></div></div>
+        <div style="display:flex;gap:10px"><span style="flex:none;color:#2ee87a;font-family:'JetBrains Mono',monospace;font-weight:700">[✓]</span><div><b style="display:block;font-size:15px">3 vídeos comigo</b><span style="font-size:13.5px;color:#8f9a94">Gravados na barbearia, com o método aplicado.</span></div></div>
+        <div style="display:flex;gap:10px"><span style="flex:none;color:#2ee87a;font-family:'JetBrains Mono',monospace;font-weight:700">[✓]</span><div><b style="display:block;font-size:15px">Acesso imediato no celular</b><span style="font-size:13.5px;color:#8f9a94">Liberado no seu e-mail logo após o pagamento.</span></div></div>
+      </div>
+      <a href="https://pay.kiwify.com.br/VjvNekA" data-checkout="1" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;background:#2ee87a;color:#04110a;border-radius:14px;min-height:64px;padding:14px;font-weight:700;font-size:18px;text-align:center;box-shadow:0 18px 50px -12px rgba(46,232,122,.6)">Quero lotar minha agenda →<small style="font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;opacity:.8">garantia de 7 dias · risco zero</small></a>
+      <p style="margin-top:12px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:#8f9a94">🔒 pagamento seguro via Kiwify</p>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="11 Garantia" style="padding:48px 18px;background:#0a0d0e;border-top:1px solid rgba(255,255,255,.05)">
+  <div style="display:flex;gap:18px;align-items:center">
+    <div style="flex:none;width:104px;height:104px;border-radius:50%;border:1px solid #2ee87a;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 0 8px rgba(46,232,122,.06),0 0 40px rgba(46,232,122,.25)">
+      <b style="font-size:48px;font-weight:700;letter-spacing:-.05em;line-height:.9;color:#2ee87a">7</b>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:#8f9a94">DIAS</span>
+    </div>
+    <div style="min-width:0">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// garantia</span>
+      <h2 style="margin-top:6px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:28px">Risco zero pra você.</h2>
+    </div>
+  </div>
+  <p style="margin-top:16px;color:#8f9a94;text-wrap:pretty">Se em <b style="color:#eef3ef">7 dias</b> você achar que o M.A.C não é para você, peça o reembolso pela Kiwify e receba <b style="color:#eef3ef">100% do valor</b> de volta. Sem perguntas.</p>
+</section>
+
+<section data-screen-label="12 FAQ" style="padding:48px 18px">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2ee87a">// 09 · perguntas frequentes</span>
+  <h2 style="margin-top:12px;font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:32px">Ainda tem dúvida?</h2>
+  <div style="margin-top:22px;display:grid;gap:8px">
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">Funciona em cidade pequena?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Funciona, e muitas vezes até melhor: em cidade pequena todo mundo se conhece, então o que o método ensina se espalha mais rápido.</p>
+      </details>
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">Serve para quem está começando?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Sim. O método foi pensado para quem precisa dos primeiros clientes e ainda não tem uma base fiel.</p>
+      </details>
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">E para quem já atende há um tempo?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Também. As estratégias de indicação e fidelização servem para fazer seus clientes atuais voltarem mais e trazerem os amigos.</p>
+      </details>
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">Preciso investir em anúncios?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Não. As 6 estratégias usam o que você já tem hoje: seus clientes e o seu atendimento.</p>
+      </details>
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">Em quanto tempo vejo resultado?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Depende da estratégia e da sua aplicação. Algumas trazem resultado já na primeira semana; outras levam algumas semanas.</p>
+      </details>
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">Por que é tão barato?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Porque eu quero que qualquer barbeiro consiga aplicar, inclusive quem está com a agenda vazia. O preço é menor que um corte para não ser desculpa.</p>
+      </details>
+    
+      <details style="border-radius:12px;border:1px solid rgba(255,255,255,.08);background:#0d1112;padding:0 16px">
+        <summary style="cursor:pointer;list-style:none;min-height:56px;padding:14px 0;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:14px">E se eu não gostar?<span style="flex:none;font-family:'JetBrains Mono',monospace;color:#2ee87a">[+]</span></summary>
+        <p style="color:#8f9a94;padding:0 0 16px;font-size:14.5px">Você tem 7 dias de garantia. Pede o reembolso pela Kiwify e recebe o valor integral de volta.</p>
+      </details>
+    
+  </div>
+</section>
+
+<footer style="border-top:1px solid rgba(255,255,255,.06);padding:24px 18px 16px;text-align:center;color:#8f9a94;font-size:12px;display:grid;gap:6px">
+  <p><b style="color:#eef3ef">M.A.C – Método Agenda Cheia</b> · © 2026</p>
+  <p>Os resultados variam de acordo com a dedicação e a aplicação de cada pessoa. Este produto não garante ganhos financeiros.</p>
+</footer>
+
+<div id="sticky" style="opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:480px;z-index:60;background:rgba(7,9,10,.94);backdrop-filter:blur(12px);border-top:1px solid rgba(46,232,122,.2);padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:10px;line-height:1.2;color:#8f9a94">M.A.C<b style="display:block;font-family:'Space Grotesk',sans-serif;color:#eef3ef;font-size:20px;letter-spacing:-.02em">R$ 47</b></div>
+    <a href="https://pay.kiwify.com.br/VjvNekA" data-checkout="1" style="flex:1;display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;text-decoration:none;background:#2ee87a;color:#04110a;border-radius:12px;font-weight:700;font-size:16px">Quero o método →</a>
+  </div>
+
+
+</div>
+
+<script>
+(function(){
+  var appts = [{"time": "09:00", "name": "Lucas Prado", "service": "Corte de cabelo", "o": 3}, {"time": "09:30", "name": "Thiago Silveira", "service": "Corte de cabelo", "o": 8}, {"time": "10:00", "name": "Douglas", "service": "Barba + Corte", "o": 1, "sub": true}, {"time": "11:00", "name": "Gustavo Ramos", "service": "Corte de cabelo", "o": 6}, {"time": "11:30", "name": "Pedro Henrique", "service": "Barba", "o": 10}, {"time": "12:00", "name": "Marcelo Dias", "service": "Corte de cabelo", "o": 4}, {"time": "13:00", "block": true}, {"time": "14:00", "name": "Bruno Torres", "service": "Corte de cabelo", "o": 11, "sub": true}, {"time": "15:00", "name": "Anderson Goulart", "service": "Corte de cabelo", "o": 7}, {"time": "16:00", "name": "Fernando", "service": "Barba + Acabamento", "o": 2}, {"time": "17:00", "name": "João Victor", "service": "Barba + Corte", "o": 5}, {"time": "18:00", "name": "Diego Fontes", "service": "Corte de cabelo", "o": 0, "sub": true}, {"time": "19:00", "name": "Leandro Rocha", "service": "Barba", "o": 9}];
+  var slotsEl = document.getElementById('slots'), fill = 0;
+  function render(){
+    var filled = Math.min(fill, 12), h = '';
+    appts.forEach(function(a){
+      h += '<div style="display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:stretch"><span style="font-family:\'JetBrains Mono\',monospace;font-size:11px;color:#8f9a94;padding-top:9px">' + a.time + '</span>';
+      if (a.block) {
+        h += '<div style="min-height:38px;padding:8px 10px;border-radius:8px;border:1.5px dashed rgba(255,255,255,.08);background:repeating-linear-gradient(135deg,#141a19 0 6px,#0f1413 6px 12px);display:flex;align-items:center;justify-content:center;font-size:12px;color:#6f7a75">Bloqueio · almoço</div>';
+      } else if (a.o < filled) {
+        var c = a.sub ? '#f0b43c' : '#2ee87a', bg = a.sub ? 'rgba(240,180,60,.1)' : 'rgba(46,232,122,.1)';
+        h += '<div style="min-height:38px;padding:8px 10px;border-radius:8px;border-left:4px solid ' + c + ';background:' + bg + ';display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13px;line-height:1.25;' + (a.o === filled - 1 ? 'animation:popIn .35s ease-out' : '') + '"><span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><b>' + a.name + '</b><span style="color:#8f9a94"> · ' + a.service + '</span></span><span style="flex:none;font-family:\'JetBrains Mono\',monospace;font-size:10px;font-weight:700;color:' + c + '">' + (a.sub ? 'ASSINANTE' : '✓') + '</span></div>';
+      } else {
+        h += '<div style="min-height:38px;padding:8px 10px;border-radius:8px;border:1.5px dashed rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;font-size:12px;color:#6f7a75">livre · R$ 50 potenciais</div>';
+      }
+      h += '</div>';
+    });
+    slotsEl.innerHTML = h;
+    var occ = Math.round(filled / 12 * 100);
+    document.getElementById('occ').textContent = occ;
+    document.getElementById('occBar').style.width = occ + '%';
+    document.getElementById('booked').textContent = filled;
+    document.getElementById('revenue').textContent = 'R$ ' + (filled * 50).toLocaleString('pt-BR');
+    document.getElementById('dayLabel').textContent = 'dia ' + String(Math.max(1, Math.round(filled / 12 * 60))).padStart(2, '0') + '/60';
+  }
+  render();
+  setInterval(function(){ fill = fill >= 18 ? 0 : fill + 1; render(); }, 600);
+
+  // calculadora
+  var st = { price: 50, freq: 2, clients: 1 };
+  function calc(){
+    Object.keys(st).forEach(function(k){ document.querySelectorAll('[data-v="' + k + '"]').forEach(function(e){ e.textContent = st[k]; }); });
+    document.getElementById('yearly').textContent = 'R$ ' + (st.price * st.freq * 12 * st.clients).toLocaleString('pt-BR');
+  }
+  document.querySelectorAll('input[data-in]').forEach(function(i){
+    i.addEventListener('input', function(){ st[i.dataset.in] = +i.value; calc(); });
+  });
+  calc();
+
+
+  // demonstração automática da calculadora quando aparece na tela
+  (function(){
+    var box = document.getElementById('calcBox'), hint = document.getElementById('calcHint');
+    if (!box || !('IntersectionObserver' in window)) return;
+    var inputs = {}, fingers = {}, touched = false, running = false, visible = false, run = 0;
+    document.querySelectorAll('input[data-in]').forEach(function(i){
+      inputs[i.dataset.in] = i;
+      var w = document.createElement('div'); w.className = 'slider-wrap';
+      i.parentNode.insertBefore(w, i); w.appendChild(i);
+      var f = document.createElement('span'); f.className = 'finger'; f.textContent = '👆'; w.appendChild(f);
+      fingers[i.dataset.in] = f;
+      ['pointerdown','touchstart','mousedown'].forEach(function(ev){ i.addEventListener(ev, stop, { passive: true }); });
+    });
+    function pos(k){ var i = inputs[k]; return (i.value - i.min) / (i.max - i.min); }
+    function place(k){ var i = inputs[k]; fingers[k].style.left = 'calc(' + (pos(k) * 100) + '% + ' + (8 - pos(k) * 16) + 'px)'; }
+    function set(k, v){ var i = inputs[k]; i.value = v; st[k] = +i.value; calc(); place(k); }
+    function stop(){ touched = true; Object.keys(fingers).forEach(function(k){ fingers[k].classList.remove('on'); inputs[k].classList.remove('live'); }); if (hint) hint.style.opacity = .55; }
+    function tween(k, to, ms, id){
+      return new Promise(function(res){
+        if (touched || !visible || id !== run) return res();
+        var from = +inputs[k].value, t0 = performance.now();
+        fingers[k].classList.add('on'); inputs[k].classList.add('live'); place(k);
+        (function step(t){
+          if (touched || !visible || id !== run) return res();
+          var p = Math.min(1, (t - t0) / ms), e = p < .5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+          var raw = from + (to - from) * e, sp = +inputs[k].step || 1;
+          set(k, Math.round(raw / sp) * sp);
+          if (p < 1) requestAnimationFrame(step); else res();
+        })(t0);
+      });
+    }
+    function wait(ms){ return new Promise(function(r){ setTimeout(r, ms); }); }
+    function off(k){ fingers[k].classList.remove('on'); inputs[k].classList.remove('live'); }
+    function demo(){
+      if (running || touched) return; running = true; var id = ++run;
+      set('price', 50); set('freq', 2); set('clients', 1);
+      wait(400)
+        .then(function(){ return tween('price', 80, 1100, id); }).then(function(){ return wait(250); })
+        .then(function(){ return tween('price', 50, 700, id); }).then(function(){ off('price'); return wait(200); })
+        .then(function(){ return tween('freq', 3, 700, id); }).then(function(){ return wait(200); })
+        .then(function(){ return tween('freq', 2, 500, id); }).then(function(){ off('freq'); return wait(200); })
+        .then(function(){ return tween('clients', 10, 1300, id); }).then(function(){ return wait(300); })
+        .then(function(){ return tween('clients', 3, 800, id); }).then(function(){ if (id !== run) return; Object.keys(fingers).forEach(off); running = false; if (visible && !touched) setTimeout(demo, 2500); });
+    }
+    new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if (e.isIntersecting && e.intersectionRatio > .55) { visible = true; demo(); }
+        else if (e.intersectionRatio < .3) { visible = false; run++; running = false; Object.keys(fingers).forEach(off); }
+      });
+    }, { threshold: [0, .55, 1] }).observe(box);
+  })();
+
+  // barra fixa
+  var sticky = document.getElementById('sticky');
+  function onScroll(){ var on = window.scrollY > 500; sticky.style.opacity = on ? 1 : 0; sticky.style.pointerEvents = on ? 'auto' : 'none'; }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  // UTM do anúncio -> checkout
+  var q = window.location.search.slice(1);
+  if (q) document.querySelectorAll('a[data-checkout]').forEach(function(a){ a.href += (a.href.indexOf('?') > -1 ? '&' : '?') + q; });
+
+  // vídeo: tenta tocar COM som; se o navegador bloquear, toca sem som
+  // e liga o som no primeiro toque da pessoa em qualquer lugar da página
+  var v = document.getElementById('vsl');
+  if (v) {
+    var src = v.querySelector('source');
+    if (src) src.addEventListener('error', function(){
+      v.style.display = 'none';
+      var t = document.getElementById('vslSound'); if (t) t.style.display = 'none';
+      var ph = document.getElementById('vslPh'); if (ph) ph.style.display = 'flex';
+    });
+    var tap = document.getElementById('vslSound'), soundOn = false;
+    function hideTap(){ if (tap) tap.style.display = 'none'; }
+    function enableSound(restart){
+      if (soundOn) return; soundOn = true;
+      v.muted = false; if (restart) v.currentTime = 0;
+      var pr = v.play(); if (pr && pr.catch) pr.catch(function(){ soundOn = false; v.muted = true; v.play(); });
+      hideTap(); off();
+    }
+    function onFirst(){ enableSound(true); }
+    function off(){ ['pointerup','touchend','click','keydown'].forEach(function(ev){ document.removeEventListener(ev, onFirst, true); }); }
+    v.muted = false;
+    var p0 = v.play();
+    if (p0 && p0.then) {
+      p0.then(function(){ soundOn = true; hideTap(); })
+        .catch(function(){
+          v.muted = true; v.loop = true; v.play().catch(function(){});
+          ['pointerup','touchend','click','keydown'].forEach(function(ev){ document.addEventListener(ev, onFirst, true); });
+        });
+    }
+    if (tap) tap.addEventListener('click', function(e){ e.stopPropagation(); v.loop = false; enableSound(true); });
+    v.addEventListener('click', function(){ if (!soundOn) enableSound(true); });
+  }
+})();
+</script>
+</body>
+</html>
